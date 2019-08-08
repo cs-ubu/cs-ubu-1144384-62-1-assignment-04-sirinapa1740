@@ -100,7 +100,8 @@ class _AppHomePageState extends State<AppHomePage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text('Age: ${student["age"]}'),
-                Text('Email: ${student["email"]}')
+                Text('Email: ${student["email"]}'),
+                Text('StudenId: ${student["ID"]}')
               ]
              )
           );
